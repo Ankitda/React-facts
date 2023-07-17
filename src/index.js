@@ -4,20 +4,21 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
+const name = "Learner";
+const element = <h1>Hello,
+{ name }.Welcome to GeeksforGeeks.</h1>;
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    element
 //   <React.StrictMode>
 //     <App />
 //   </React.StrictMode>
-// );
+);
 
-const name = "Learner";
  
-const element = <h1>Hello,
-{ name }.Welcome to GeeksforGeeks.</h1>;
   
 ReactDOM.render(
-    element,
     document.getElementById("root")
 );
 
