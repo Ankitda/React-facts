@@ -2,7 +2,7 @@ import  reactSmallIcon from "./React-Small-Icon.png"
 export default function Navbar() {
     return (
         <nav>
-            <img src={reactSmallIcon} className="nav--icon" />
+            <img src={reactSmallIcon} alt="React-Logo" className="nav--icon" />
             <h3 className="nav--logo_text">ReactFacts</h3>
             <h4 className="nav--title">React Course - Project 1</h4>
         </nav>
