@@ -4,16 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const name = "Learner";
-const originOfWeb = "Ankit Das"
-const element = <h1>Hello,{ name }.Welcome to {originOfWeb} Website.</h1>;
+// const name = "Learner";
+// const originOfWeb = "Ankit Das"
+// const element = <h1>Hello,{ name }.Welcome to {originOfWeb} Website.</h1>;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    element
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
 
 
